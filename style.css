@@ -1,0 +1,23 @@
+.search-bar {
+    margin: 20px 0;
+    border-color: black;
+  }
+  
+  .search-bar input {
+    width: 50%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.1);
+    border-color: black;
+  }
+
+  .search-bar input:focus {
+    outline: none;
+    border-color: #ff69b4;
+  }
+
+  nav{
+    background-color:royalblue;
+}
