@@ -5,23 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body style="background-color: rgb(223, 234, 248);">
+<body style="background-color: #eeeeee">
     <!-- The nav section -->
     <section>
         <div>
-            <nav>
-
+            <nav class="brown darken-3" style="position: fixed;z-index: 999;">
+                <nav class="white lighten-1">
+                    <div class="nav-wrapper">
+                        <a href="" class="brand-logo"><img src="images/Screenshot 2025-01-18 133526.png" style="margin-top: 20px;"></a>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons" style="color: black;"><img src="images/Screenshot 2025-01-18 133526.png"></i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="Home" style="color: pink; font-size: x-large;">Home</a></li>
+                            <li><a href="About" style="color: pink; font-size: x-large;">About</a></li>
+                            <li><a href="Our Team" style="color: pink; font-size: x-large;">Store</a></li>
+                            <li><a href="Menu" style="color: black;">+123456789</a></li>
+                            <li><a href="Testimonals" style="color: black;">2 Items - $10.49</a></li>
+                        </ul>
+                    </div>
+                    <ul id="slide-out" class="right sidenav">
+                        <li><a href=""><i class="material-icons" style="color: black;">home</i>Home</a></li>
+                        <li><a href=""><i class="material-icons" style="color: black;">information</i>About</a></li>
+                        <li><a href=""><i class="material-icons" style="color: black;">group</i>Our Team</a></li>
+                        <li><a href=""><i class="material-icons" style="color: black;">toc</i>Menu</a></li>
+                        <li><a href=""><i class="material-icons" style="color: black;">sms</i>Testimonals</a></li>
+                        <li><a href=""><i class="material-icons" style="color: black;">phone</i>Contact</a></li>
+    
+                    </ul>     
+                </nav>        
             </nav>
+    
         </div>
     </section>
 
     <!-- The Hero section -->
-    <section>
+    <section class="OIP">
         <div>
-            <div>
-                
+            <div class="hero-content">
+                <h1>Welcome To <span class="zeal">Grandma's</span></h1>
+                <button style="font-size:xx-large; background-color:transparent;">EXPLORE</button>
             </div>
         </div>
     </section>
@@ -39,24 +64,26 @@
     <section style="margin-left: 40px;margin-right: 40px;">
     <center>
         <h1>Our <span style="color: pink;">Store</span></h1>
-        <button class="btn" style="position: relative; margin-right: 4% ; background-color: white; color: black;">All</button>
-        <button class="btn" style="position: relative; margin-right: 4% ; background-color: white; color: black;">Cakes</button>
-        <button class="btn" style="position: relative; margin-right: 4% ; background-color: white; color: black;">Cupcakes</button>
-        <button class="btn" style="position: relative; margin-right: 4% ; background-color: white; color: black;">Sweets</button>
-        <button class="btn" style="position: relative; margin-right: 4% ; background-color: white; color: black;">Doughnuts</button>
+        <button class="btn1">All</button>
+        <button class="btn1">Cakes</button>
+        <button class="btn1">Cupcakes</button>
+        <button class="btn1">Sweets</button>
+        <button class="btn1">Doughnuts</button>
     </center>
+    </section>
 
+    <section style="margin-left: 8%;margin-right: 8%;">
     <div class="search-bar">
-        <input type="text" placeholder="Search item..." />
+        <input type="text" placeholder="Search item...">
       </div>
                 <div class="row">
                     <div class="col l4 m4 s12">
-                        <div class="card">
+                        <div class="card" >
                             <div class="card-image">
                                 <img src="images/25 einfache und originelle Cake Topper für die Hochzeitstorte.jpg" class="responsive-img"> 
                             </div>
                             <div class="card-content">
-                                <p>Sweet item</p>  <span>$5</span>
+                                <p>Sweet item <span>$5</span></p>  
                             </div>
                         </div>
                     </div>
@@ -86,7 +113,7 @@
     </section>
 
     <!-- The sweet Item -->
-    <section style="margin-left: 40px;margin-right: 40px;">
+    <section style="margin-left: 8%;margin-right: 8%;">
         <div class="row">
             <div class="col l4 m4 s12">
                 <div class="card">
@@ -94,7 +121,7 @@
                         <img src="images/How to Make Oreo Cupcakes From Scratch _ Homemade Cupcake Recipe _ Julie Marie Eats.jpg" class="responsive-img"> 
                     </div>
                     <div class="card-content">
-                        <p>Sweet item</p>  <span>$5</span>
+                        <p>Sweet item <span>$5</span></p>  
                     </div>
                 </div>
             </div>
@@ -129,7 +156,7 @@
                         <img src="images/Mini Pineapple Upside-Down Cheesecakes.jpg" class="responsive-img"> 
                     </div>
                     <div class="card-content">
-                        <p>Sweet item</p>  <span>$5</span>
+                        <p>Sweet item <span>$5</span></p>  
                     </div>
                 </div>
             </div>
@@ -161,7 +188,7 @@
 
 
     <!-- The cake iteam -->
-    <section style="margin-left: 40px;margin-right: 40px;">
+    <section style="margin-left: 8%;margin-right: 8%;">
         <div>
             <div>
                 <div class="row">
@@ -171,7 +198,7 @@
                                 <img src="images/30th Birthday Cake Ideas_ 50 Spectacular Cake Designs for Her & Him 37.jpg" class="responsive-img"> 
                             </div>
                             <div class="card-content">
-                                <p>Sweet item</p>  <span>$5</span>
+                                <p>Sweet item <span>$5</span></p>  
                             </div>
                         </div>
                     </div>
@@ -208,7 +235,7 @@
                         <img src="images/Candy Meadow Cupcakes.jpg" class="responsive-img"> 
                     </div>
                     <div class="card-content">
-                        <p>Sweet item</p>  <span>$5</span>
+                        <p>Sweet item <span>$5</span></p>  
                     </div>
                 </div>
             </div>
@@ -230,7 +257,7 @@
                         <img src="images/Bavarois Framboise, Croustillant Chocolat Blanc.jpg" class="responsive-img">
                     </div>
                     <div class="card-content">
-                        <p>Cupcake item </p><span>$5</span>
+                        <p>Cupcake item <span>$5</span></p>
                     </div>
                 </div>
             </div>
@@ -245,5 +272,9 @@
             </div>
         </div>
      </section>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
 </body>
 </html>
